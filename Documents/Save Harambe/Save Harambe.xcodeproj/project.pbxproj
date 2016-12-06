@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49E9DB31DF70BBE000ACCB2 /* cointextures.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B49E9DB21DF70BBE000ACCB2 /* cointextures.atlas */; };
+		B49E9DB51DF71ECA000ACCB2 /* ObjectTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B49E9DB41DF71ECA000ACCB2 /* ObjectTiles.sks */; };
+		B4EECAA31DD3A6C100A3DCE8 /* Tiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4EECAA21DD3A6C100A3DCE8 /* Tiles.sks */; };
+		B4FCB9001D9B6386001E037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB8FF1D9B6386001E037E /* AppDelegate.swift */; };
+		B4FCB9021D9B6386001E037E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4FCB9011D9B6386001E037E /* GameScene.sks */; };
+		B4FCB9041D9B6386001E037E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4FCB9031D9B6386001E037E /* Actions.sks */; };
+		B4FCB9061D9B6386001E037E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9051D9B6386001E037E /* GameScene.swift */; };
+		B4FCB9081D9B6386001E037E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9071D9B6386001E037E /* GameViewController.swift */; };
+		B4FCB90B1D9B6386001E037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FCB9091D9B6386001E037E /* Main.storyboard */; };
+		B4FCB90D1D9B6386001E037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCB90C1D9B6386001E037E /* Assets.xcassets */; };
+		B4FCB9101D9B6386001E037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FCB90E1D9B6386001E037E /* LaunchScreen.storyboard */; };
+		B4FCB91B1D9B6386001E037E /* Save_HarambeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB91A1D9B6386001E037E /* Save_HarambeTests.swift */; };
+		B4FCB9261D9B6386001E037E /* Save_HarambeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9251D9B6386001E037E /* Save_HarambeUITests.swift */; };
+		B4FCB9361D9B6E05001E037E /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9331D9B6E05001E037E /* GameOver.swift */; };
+		B4FCB9371D9B6E05001E037E /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9341D9B6E05001E037E /* Playing.swift */; };
+		B4FCB9381D9B6E05001E037E /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCB9351D9B6E05001E037E /* WaitingForTap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4FCB9171D9B6386001E037E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCB8F41D9B6386001E037E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCB8FB1D9B6386001E037E;
+			remoteInfo = "Save Harambe";
+		};
+		B4FCB9221D9B6386001E037E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCB8F41D9B6386001E037E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCB8FB1D9B6386001E037E;
+			remoteInfo = "Save Harambe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B49E9DB21DF70BBE000ACCB2 /* cointextures.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cointextures.atlas; sourceTree = "<group>"; };
+		B49E9DB41DF71ECA000ACCB2 /* ObjectTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ObjectTiles.sks; sourceTree = "<group>"; };
+		B4EECAA21DD3A6C100A3DCE8 /* Tiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tiles.sks; sourceTree = SOURCE_ROOT; };
+		B4FCB8FC1D9B6386001E037E /* Save Harambe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Save Harambe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCB8FF1D9B6386001E037E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4FCB9011D9B6386001E037E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B4FCB9031D9B6386001E037E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B4FCB9051D9B6386001E037E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B4FCB9071D9B6386001E037E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B4FCB90A1D9B6386001E037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4FCB90C1D9B6386001E037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4FCB90F1D9B6386001E037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4FCB9111D9B6386001E037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCB9161D9B6386001E037E /* Save HarambeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save HarambeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCB91A1D9B6386001E037E /* Save_HarambeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save_HarambeTests.swift; sourceTree = "<group>"; };
+		B4FCB91C1D9B6386001E037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCB9211D9B6386001E037E /* Save HarambeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Save HarambeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCB9251D9B6386001E037E /* Save_HarambeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Save_HarambeUITests.swift; sourceTree = "<group>"; };
+		B4FCB9271D9B6386001E037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCB9331D9B6E05001E037E /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOver.swift; path = "../../../Downloads/Bamboo Breakout Starter/Bamboo Breakout/GameOver.swift"; sourceTree = "<group>"; };
+		B4FCB9341D9B6E05001E037E /* Playing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Playing.swift; path = "../../../Downloads/Bamboo Breakout Starter/Bamboo Breakout/Playing.swift"; sourceTree = "<group>"; };
+		B4FCB9351D9B6E05001E037E /* WaitingForTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitingForTap.swift; path = "../../../Downloads/Bamboo Breakout Starter/Bamboo Breakout/WaitingForTap.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4FCB8F91D9B6386001E037E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB9131D9B6386001E037E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB91E1D9B6386001E037E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4FCB8F31D9B6386001E037E = {
+			isa = PBXGroup;
+			children = (
+				B4FCB8FE1D9B6386001E037E /* Save Harambe */,
+				B4FCB9191D9B6386001E037E /* Save HarambeTests */,
+				B4FCB9241D9B6386001E037E /* Save HarambeUITests */,
+				B4FCB8FD1D9B6386001E037E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4FCB8FD1D9B6386001E037E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCB8FC1D9B6386001E037E /* Save Harambe.app */,
+				B4FCB9161D9B6386001E037E /* Save HarambeTests.xctest */,
+				B4FCB9211D9B6386001E037E /* Save HarambeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4FCB8FE1D9B6386001E037E /* Save Harambe */ = {
+			isa = PBXGroup;
+			children = (
+				B4EECAA21DD3A6C100A3DCE8 /* Tiles.sks */,
+				B49E9DB21DF70BBE000ACCB2 /* cointextures.atlas */,
+				B4FCB9391D9B6E0A001E037E /* Game States */,
+				B4FCB8FF1D9B6386001E037E /* AppDelegate.swift */,
+				B4FCB9011D9B6386001E037E /* GameScene.sks */,
+				B4FCB9031D9B6386001E037E /* Actions.sks */,
+				B4FCB9051D9B6386001E037E /* GameScene.swift */,
+				B49E9DB41DF71ECA000ACCB2 /* ObjectTiles.sks */,
+				B4FCB9071D9B6386001E037E /* GameViewController.swift */,
+				B4FCB9091D9B6386001E037E /* Main.storyboard */,
+				B4FCB90C1D9B6386001E037E /* Assets.xcassets */,
+				B4FCB90E1D9B6386001E037E /* LaunchScreen.storyboard */,
+				B4FCB9111D9B6386001E037E /* Info.plist */,
+			);
+			path = "Save Harambe";
+			sourceTree = "<group>";
+		};
+		B4FCB9191D9B6386001E037E /* Save HarambeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCB91A1D9B6386001E037E /* Save_HarambeTests.swift */,
+				B4FCB91C1D9B6386001E037E /* Info.plist */,
+			);
+			path = "Save HarambeTests";
+			sourceTree = "<group>";
+		};
+		B4FCB9241D9B6386001E037E /* Save HarambeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCB9251D9B6386001E037E /* Save_HarambeUITests.swift */,
+				B4FCB9271D9B6386001E037E /* Info.plist */,
+			);
+			path = "Save HarambeUITests";
+			sourceTree = "<group>";
+		};
+		B4FCB9391D9B6E0A001E037E /* Game States */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCB9331D9B6E05001E037E /* GameOver.swift */,
+				B4FCB9341D9B6E05001E037E /* Playing.swift */,
+				B4FCB9351D9B6E05001E037E /* WaitingForTap.swift */,
+			);
+			name = "Game States";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4FCB8FB1D9B6386001E037E /* Save Harambe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCB92A1D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save Harambe" */;
+			buildPhases = (
+				B4FCB8F81D9B6386001E037E /* Sources */,
+				B4FCB8F91D9B6386001E037E /* Frameworks */,
+				B4FCB8FA1D9B6386001E037E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Save Harambe";
+			productName = "Save Harambe";
+			productReference = B4FCB8FC1D9B6386001E037E /* Save Harambe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4FCB9151D9B6386001E037E /* Save HarambeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCB92D1D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save HarambeTests" */;
+			buildPhases = (
+				B4FCB9121D9B6386001E037E /* Sources */,
+				B4FCB9131D9B6386001E037E /* Frameworks */,
+				B4FCB9141D9B6386001E037E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCB9181D9B6386001E037E /* PBXTargetDependency */,
+			);
+			name = "Save HarambeTests";
+			productName = "Save HarambeTests";
+			productReference = B4FCB9161D9B6386001E037E /* Save HarambeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4FCB9201D9B6386001E037E /* Save HarambeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCB9301D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save HarambeUITests" */;
+			buildPhases = (
+				B4FCB91D1D9B6386001E037E /* Sources */,
+				B4FCB91E1D9B6386001E037E /* Frameworks */,
+				B4FCB91F1D9B6386001E037E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCB9231D9B6386001E037E /* PBXTargetDependency */,
+			);
+			name = "Save HarambeUITests";
+			productName = "Save HarambeUITests";
+			productReference = B4FCB9211D9B6386001E037E /* Save HarambeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4FCB8F41D9B6386001E037E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Dominik Figueroa";
+				TargetAttributes = {
+					B4FCB8FB1D9B6386001E037E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AWY893CXLA;
+						ProvisioningStyle = Automatic;
+					};
+					B4FCB9151D9B6386001E037E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AWY893CXLA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4FCB8FB1D9B6386001E037E;
+					};
+					B4FCB9201D9B6386001E037E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AWY893CXLA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4FCB8FB1D9B6386001E037E;
+					};
+				};
+			};
+			buildConfigurationList = B4FCB8F71D9B6386001E037E /* Build configuration list for PBXProject "Save Harambe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4FCB8F31D9B6386001E037E;
+			productRefGroup = B4FCB8FD1D9B6386001E037E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4FCB8FB1D9B6386001E037E /* Save Harambe */,
+				B4FCB9151D9B6386001E037E /* Save HarambeTests */,
+				B4FCB9201D9B6386001E037E /* Save HarambeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4FCB8FA1D9B6386001E037E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EECAA31DD3A6C100A3DCE8 /* Tiles.sks in Resources */,
+				B4FCB90B1D9B6386001E037E /* Main.storyboard in Resources */,
+				B4FCB9021D9B6386001E037E /* GameScene.sks in Resources */,
+				B49E9DB31DF70BBE000ACCB2 /* cointextures.atlas in Resources */,
+				B4FCB90D1D9B6386001E037E /* Assets.xcassets in Resources */,
+				B4FCB9101D9B6386001E037E /* LaunchScreen.storyboard in Resources */,
+				B49E9DB51DF71ECA000ACCB2 /* ObjectTiles.sks in Resources */,
+				B4FCB9041D9B6386001E037E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB9141D9B6386001E037E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB91F1D9B6386001E037E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4FCB8F81D9B6386001E037E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCB9061D9B6386001E037E /* GameScene.swift in Sources */,
+				B4FCB9381D9B6E05001E037E /* WaitingForTap.swift in Sources */,
+				B4FCB9081D9B6386001E037E /* GameViewController.swift in Sources */,
+				B4FCB9001D9B6386001E037E /* AppDelegate.swift in Sources */,
+				B4FCB9361D9B6E05001E037E /* GameOver.swift in Sources */,
+				B4FCB9371D9B6E05001E037E /* Playing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB9121D9B6386001E037E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCB91B1D9B6386001E037E /* Save_HarambeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCB91D1D9B6386001E037E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCB9261D9B6386001E037E /* Save_HarambeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4FCB9181D9B6386001E037E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCB8FB1D9B6386001E037E /* Save Harambe */;
+			targetProxy = B4FCB9171D9B6386001E037E /* PBXContainerItemProxy */;
+		};
+		B4FCB9231D9B6386001E037E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCB8FB1D9B6386001E037E /* Save Harambe */;
+			targetProxy = B4FCB9221D9B6386001E037E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4FCB9091D9B6386001E037E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4FCB90A1D9B6386001E037E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4FCB90E1D9B6386001E037E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4FCB90F1D9B6386001E037E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4FCB9281D9B6386001E037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4FCB9291D9B6386001E037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4FCB92B1D9B6386001E037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save Harambe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-Harambe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B4FCB92C1D9B6386001E037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save Harambe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-Harambe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B4FCB92E1D9B6386001E037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save HarambeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-HarambeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Save Harambe.app/Save Harambe";
+			};
+			name = Debug;
+		};
+		B4FCB92F1D9B6386001E037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save HarambeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-HarambeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Save Harambe.app/Save Harambe";
+			};
+			name = Release;
+		};
+		B4FCB9311D9B6386001E037E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save HarambeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-HarambeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Save Harambe";
+			};
+			name = Debug;
+		};
+		B4FCB9321D9B6386001E037E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AWY893CXLA;
+				INFOPLIST_FILE = "Save HarambeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominikfigueroa.Save-HarambeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Save Harambe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4FCB8F71D9B6386001E037E /* Build configuration list for PBXProject "Save Harambe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCB9281D9B6386001E037E /* Debug */,
+				B4FCB9291D9B6386001E037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCB92A1D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save Harambe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCB92B1D9B6386001E037E /* Debug */,
+				B4FCB92C1D9B6386001E037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCB92D1D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save HarambeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCB92E1D9B6386001E037E /* Debug */,
+				B4FCB92F1D9B6386001E037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCB9301D9B6386001E037E /* Build configuration list for PBXNativeTarget "Save HarambeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCB9311D9B6386001E037E /* Debug */,
+				B4FCB9321D9B6386001E037E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4FCB8F41D9B6386001E037E /* Project object */;
+}
